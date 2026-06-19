@@ -1,130 +1,140 @@
-<!DOCTYPE html>
-<html lang="cs">
+﻿<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zdraví a Pohoda: Skrytá Pravda o Vašem Cukru v Krvi, Kterou Vám Lékaři NECHTĚJÍ Říct!</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            width: 90%;
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2, h3 {
-            color: #0056b3;
-        }
-        .header {
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }
-        .header img {
-            max-width: 100%;
-            height: auto;
-            border: 3px dashed #28a745; /* Green dashed border */
-            border-radius: 8px;
-        }
-        .cta-button {
-            display: block;
-            width: fit-content;
-            margin: 20px auto;
-            padding: 15px 30px;
-            background-color: #FFD700; /* Golden color */
-            color: #333;
-            text-decoration: none;
-            font-size: 1.2em;
-            font-weight: bold;
-            border-radius: 5px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            transition: background-color 0.3s ease;
-        }
-        .cta-button:hover {
-            background-color: #e6c200;
-        }
-        .content img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border: 3px dashed #28a745; /* Green dashed border */
-            border-radius: 8px;
-        }
-        .footer {
-            text-align: center;
-            padding-top: 20px;
-            margin-top: 20px;
-            border-top: 1px solid #eee;
-            font-size: 0.8em;
-            color: #666;
-        }
-        .disclaimer {
-            font-size: 0.7em;
-            color: #999;
-            margin-top: 10px;
-            text-align: justify;
-        }
-        a {
-            color: #0056b3;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio | ATAVI COZINHA ARTESANAL LANCHONETE LTDA</title>
+  <meta name="description" content="ATAVI COZINHA ARTESANAL LANCHONETE LTDA - Cozinha artesanal e lanchonete. Dados empresariais, politicas e canais de contato.">
+  <style>
+    :root {
+      --accent: #7c4a2f;
+      --accent2: #2f6f54;
+      --bg: #f7f7f2;
+      --text: #1e2520;
+      --muted: #5f6b63;
+      --line: #d9ddd4;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
+    header { background: var(--card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
+    .wrap { width: min(1100px, calc(100% - 32px)); margin: 0 auto; }
+    .top { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px 0; }
+    .brand { display: flex; flex-direction: column; gap: 2px; }
+    .brand strong { font-size: 18px; letter-spacing: 0; }
+    .brand span { color: var(--muted); font-size: 13px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; }
+    nav a { color: var(--text); text-decoration: none; padding: 8px 10px; border-radius: 6px; border: 1px solid transparent; font-size: 14px; }
+    nav a.active, nav a:hover { border-color: var(--accent); color: var(--accent); }
+    main { padding: 46px 0; }
+    .hero { display: grid; grid-template-columns: 1.4fr .8fr; gap: 28px; align-items: stretch; }
+    h1 { font-size: clamp(30px, 5vw, 54px); line-height: 1.05; margin: 0 0 18px; letter-spacing: 0; }
+    h2 { font-size: 26px; margin: 0 0 14px; letter-spacing: 0; }
+    h3 { margin: 0 0 8px; }
+    p { margin: 0 0 14px; }
+    .lead { font-size: 18px; color: var(--muted); max-width: 760px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 24px; }
+    .hero .card { border-top: 4px solid var(--accent); }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 22px; }
+    .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 22px; }
+    .section { margin-top: 34px; }
+    .badge { display: inline-block; background: color-mix(in srgb, var(--accent) 12%, white); color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 32%, white); border-radius: 999px; padding: 6px 10px; font-size: 13px; margin-bottom: 16px; }
+    .btns { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; }
+    .btn { background: var(--accent); color: white; text-decoration: none; border-radius: 6px; padding: 10px 14px; font-weight: 700; }
+    .btn.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); }
+    th, td { padding: 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    footer { border-top: 1px solid var(--line); background: var(--card); padding: 24px 0; color: var(--muted); font-size: 14px; }
+    footer a { color: var(--accent); }
+    .legal { font-size: 14px; color: var(--muted); }
+    @media (max-width: 760px) {
+      .top, .hero, .grid, .two { grid-template-columns: 1fr; display: grid; }
+      nav { width: 100%; }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Zdraví a Pohoda: Skrytá Pravda o Vašem Cukru v Krvi, Kterou Vám Lékaři NECHTĚJÍ Říct!</h1>
-            <a href="https://lp.mundovitalis.shop/preclick" target="_blank">
-                <img src="img/diabetes_mechanism_cz_v16_hero.png" alt="Záhadný mechanismus s přírodním olejem">
-            </a>
-            <a href="https://lp.mundovitalis.shop/preclick" target="_blank" class="cta-button">KLIKNĚTE ZDE A OBJEVTE TAJEMSTVÍ STABILIZACE CUKRU!</a>
-        </div>
-
-        <div class="content">
-            <h2>Jste Unaveni z Neustálé Kontroly Cukru? Existuje Řešení, Které Vám Zatajili!</h2>
-            <p>Roky vám říkali, že musíte přijmout svůj stav, kontrolovat každé jídlo a žít s neustálým strachem z výkyvů cukru. Ale co kdybych vám řekl, že existuje **starodávný, přírodní mechanismus**, znovuobjevený českými vědci, který může pomoci vašemu tělu znovu získat ztracenou rovnováhu? Tajemství, které moderní medicína ignorovala, ale které je nyní konečně na dosah.</p>
-            <p>Představte si, že se každé ráno probudíte s energií, bez duševní mlhy a se svobodou vychutnat si svá oblíbená jídla bez pocitu viny. Toto není nedosažitelný sen, ale konkrétní možnost pro tisíce lidí, kteří už tuto metodu objevili. Je čas převzít kontrolu nad svým životem a zdravím.</p>
-
-            <a href="https://lp.mundovitalis.shop/preclick" target="_blank">
-                <img src="img/diabetes_secret_cz_v16.png" alt="Ruka staršího člověka držící záhadný předmět">
-            </a>
-
-            <h2>"Zlatá Tekutina", Která Může Revolucionizovat Váš Metabolismus</h2>
-            <p>V centru tohoto neuvěřitelného objevu je přírodní prvek, skutečná "Zlatá Tekutina", jejíž existence se předávala po generace. Není to lék, nemá vedlejší účinky a nevyžaduje vyčerpávající diety. Tato tekutina, pokud se správně používá, působí přímo na buňky, reaktivuje jejich schopnost efektivně zpracovávat cukr a zlepšuje citlivost.</p>
-            <p>Nezávislé studie prokázaly, že tato "Zlatá Tekutina" může pomoci stabilizovat hladinu cukru v krvi, snížit rezistenci a zlepšit celkové zdraví. Je to, jako by vaše tělo dostalo "impuls", aby opět fungovalo tak, jak má, což vám umožní žít plnohodnotnější život bez omezení, která vám dosud byla vnucována.</p>
-
-            <h2>Nedovolte, Aby Vám Říkali, Že Není Naděje!</h2>
-            <p>Pokud jste unaveni z prázdných slibů a dočasných řešení, pokud chcete konečně řešit kořen problému a nejen symptomy, pak musíte znát toto tajemství. Nedovolte, aby vás definoval váš věk nebo váš stav. Zasloužíte si žít život plný vitality, energie a svobody a užívat si každý jeho okamžik.</p>
-            <p>Toto je vaše příležitost objevit pravdu. Klikněte na tlačítko níže a získejte přístup k exkluzivnímu videu, které odhalí všechny podrobnosti o tom, jak tato "Zlatá Tekutina" může transformovat vaše zdraví a dát vám svobodu, o které jste si mysleli, že jste ji navždy ztratili. Nečekejte, až bude příliš pozdě!</p>
-
-            <a href="https://lp.mundovitalis.shop/preclick" target="_blank" class="cta-button">KLIKNĚTE ZDE A OBJEVTE TAJEMSTVÍ PRO STABILNÍ CUKR A VÍCE ENERGIE!</a>
-        </div>
-
-        <div class="footer">
-            <p>&copy; 2024 Zdraví a Pohoda. Všechna práva vyhrazena.</p>
-            <p>ATAVI COZINHA ARTESANAL LANCHONETE LTDA | CNPJ: 63.676.442/0001-72</p>
-            <p>Pau Brasil - BA, Brazília</p>
-            <p><a href="privacy.html">Zásady Ochrany Osobních Údajů</a> | <a href="terms.html">Podmínky Používání</a></p>
-            <div class="disclaimer">
-                <p>Právní upozornění: Informace uvedené na této stránce jsou pouze pro informační účely a nejsou určeny k nahrazení odborné lékařské rady. Vždy se poraďte se svým lékařem nebo kvalifikovaným zdravotnickým pracovníkem ohledně jakýchkoli zdravotních otázek nebo obav. Individuální výsledky se mohou lišit. Tento produkt není určen k diagnostice, léčbě, vyléčení nebo prevenci jakýchkoli nemocí.</p>
-            </div>
-        </div>
+  <header>
+    <div class="wrap top">
+      <div class="brand">
+        <strong>ATAVI COZINHA ARTESANAL LANCHONETE LTDA</strong>
+        <span>Cozinha artesanal e lanchonete | Pau Brasil - BA</span>
+      </div>
+      <nav aria-label="Navegacao principal">
+        <a class="active" href="index.html">Inicio</a>
+<a href="privacy.html">Privacidade</a>
+<a href="terms.html">Termos</a>
+<a href="contact.html">Contato</a>
+      </nav>
     </div>
-<script type="text/javascript" src="https://lp.mundovitalis.shop/pretrack.js?rtkcmpid=6a25e9e1f192708e5240a159"></script>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+  <div>
+    <span class="badge">Empresa registrada em Pau Brasil - BA</span>
+    <h1>Atavi Cozinha Artesanal: atendimento local com transparencia e identificacao empresarial.</h1>
+    <p class="lead">A Atavi Cozinha Artesanal atua no segmento de cozinha artesanal e lanchonete, com atendimento local em Pau Brasil - BA, dados empresariais visiveis e comunicacao transparente com consumidores.</p>
+    <div class="btns">
+      <a class="btn" href="contact.html">Entrar em contato</a>
+      <a class="btn secondary" href="privacy.html">Ver privacidade</a>
+    </div>
+  </div>
+  <aside class="card">
+    <h2>Dados empresariais</h2>
+    <p><strong>Nome de apresentacao:</strong> Atavi Cozinha Artesanal</p>
+    <p><strong>Razao social:</strong> ATAVI COZINHA ARTESANAL LANCHONETE LTDA</p>
+    <p><strong>CNPJ:</strong> 63.676.442/0001-72</p>
+    <p><strong>Endereco:</strong> Praca Juracy Magalhaes, 14, Centro, Pau Brasil - BA, CEP 45890-000</p>
+    <p><strong>Setor:</strong> Cozinha artesanal e lanchonete</p>
+  </aside>
+</section>
+
+<section class="section">
+  <h2>Operacao responsavel</h2>
+  <div class="grid">
+    <div class="card"><h3>Empresa identificada</h3><p>Razao social, CNPJ, endereco fisico, setor de atividade e canais de contato ficam visiveis para consulta do consumidor e para verificacoes comerciais.</p></div>
+    <div class="card"><h3>Comunicacao clara</h3><p>As informacoes comerciais sao apresentadas de forma objetiva, sem promessas absolutas, omissoes relevantes ou alegacoes enganosas.</p></div>
+    <div class="card"><h3>Atendimento ao cliente</h3><p>Os canais de contato devem ser mantidos ativos para duvidas, solicitacoes e exercicio de direitos.</p></div>
+  </div>
+</section>
+
+<section class="section card">
+  <h2>Informacoes para verificacao de operacoes comerciais</h2>
+  <p>A Atavi Cozinha Artesanal anuncia sua propria empresa e utiliza seus canais digitais para apresentar informacoes institucionais, dados cadastrais, atendimento, endereco fisico e formas de contato. A empresa nao atua como afiliada, nao gera leads para terceiros e nao anuncia produtos ou servicos de outra organizacao.</p>
+  <table>
+    <tbody>
+      <tr><th>Empresa anunciada</th><td>Atavi Cozinha Artesanal</td></tr>
+      <tr><th>Razao social</th><td>ATAVI COZINHA ARTESANAL LANCHONETE LTDA</td></tr>
+      <tr><th>CNPJ</th><td>63.676.442/0001-72</td></tr>
+      <tr><th>Endereco comercial</th><td>Praca Juracy Magalhaes, 14, Centro, Pau Brasil - BA, CEP 45890-000</td></tr>
+      <tr><th>Pais de atendimento</th><td>Brasil</td></tr>
+      <tr><th>Finalidade do site</th><td>Apresentar a propria operacao comercial, politicas, contato e informacoes institucionais da empresa.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="section two">
+  <div class="card">
+    <h2>Conformidade</h2>
+    <p>A empresa busca manter suas paginas, comunicacoes e campanhas alinhadas com as leis brasileiras, direitos do consumidor, LGPD e boas praticas de publicidade digital.</p>
+  </div>
+  <div class="card">
+    <h2>Transparencia</h2>
+    <p>O site informa razao social, CNPJ, endereco, politica de privacidade, termos de uso e contato, facilitando a verificacao da operacao.</p>
+  </div>
+</section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p><strong>ATAVI COZINHA ARTESANAL LANCHONETE LTDA</strong> | CNPJ: 63.676.442/0001-72</p>
+      <p>Praca Juracy Magalhaes, 14, Centro, Pau Brasil - BA, CEP 45890-000</p>
+      <p>Brasil | Portugues (Brasil) | E-mail oficial: informar e-mail oficial da empresa</p>
+      <p><a href="privacy.html">Politica de Privacidade</a> | <a href="terms.html">Termos de Uso</a> | <a href="contact.html">Contato</a></p>
+      <p>Este site apresenta informacoes institucionais da empresa e opera com compromisso de transparencia, protecao de dados, comunicacao responsavel e respeito a legislacao brasileira aplicavel.</p>
+    </div>
+  </footer>
 </body>
 </html>
+
